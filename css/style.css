@@ -1,0 +1,20 @@
+@charset "utf-8";
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, input {margin:0;padding:0}
+body {font:normal 12px/20px "\5fae\8f6f\96c5\9ed1", Arial, "\5b8b\4f53", Tahoma, Helvetica, sans-serif;color:#444;background:#f9f9f9}
+input, button, select, textarea, :focus {outline:0}
+html {-webkit-text-size-adjust:none}
+textarea {resize:none}
+em, i, s, b {font-style:normal;font-weight:normal}
+ul, ol, li {list-style:none}
+img, iframe {border:0}
+table {border-collapse:collapse}
+td {empty-cells:show}
+a {color:#006dc2;text-decoration:none}
+a:hover {color:#ff7200;text-decoration:underline}
+.clearfix {zoom:1}
+.clearfix:after {clear:both;content:".";display:block;height:0;line-height:0;visibility:hidden}
+.clear-f {clear:both;zoom:1;height:0;overflow:hidden;line-height:0}
+.none {display:none}
+
+body{ background:#eee; padding:20px;}
+#canvas{ background:#fff; border:thin inset #aaa;}

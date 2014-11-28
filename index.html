@@ -1,0 +1,48 @@
+ <!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="Generator" content="EditPlus®">
+<meta name="Author" content="">
+<meta name="Keywords" content="">
+<meta name="Description" content="">
+<title>Document</title>
+<link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+<p>
+	strokeStyle:
+	<select id="strokeStyleSelect">
+    	<option value="white">white</option>
+    	<option value="blue">blue</option>
+        <option value="red">red</option>
+        <option value="yellow">yellow</option>
+    </select>
+    fillStyle:
+    <select id="fillStyleSelect">
+    	<option value="white">white</option>
+    	<option value="blue">blue</option>
+        <option value="red">red</option>
+        <option value="yellow">yellow</option>
+    </select>
+    Draw:
+    <input id="drawRadio" name="drawRadio" type="radio" />
+    Eraser:
+    <input id="eraserRadio" name="drawRadio" type="radio" />
+    Eraser shape:
+    <select id="eraserShapeSelect">
+    	<option>square</option>
+        <option>circle</option>
+    </select>
+    Eraser width:
+    <select id="eraserWidthSelect">
+    	<option>10</option>
+        <option>100</option>
+    </select>
+</p>
+<div>
+<canvas id="canvas" width="600" height="500"></canvas>
+</div>
+</body>
+<script type="text/javascript" src="js/main.js"></script>
+</html>
